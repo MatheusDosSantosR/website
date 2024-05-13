@@ -19,9 +19,9 @@ const HeroSection = () => {
                     </Typewriter>
                 </p>
                 <div className="flex justify-center my-10">
-                    <a href="#" className="bg-gradient-to-r from-indigo-300 to-indigo-400 py-3 px-4 mx-3 rounded-md">
+                    <button onClick={()=> window.open("https://api.whatsapp.com/send?phone=5562981678333&text=Ola,%20Gostaria%20de%20falar%20com%20matheus!", "_blank")} className="bg-gradient-to-r from-indigo-300 to-indigo-400 py-3 px-4 mx-3 rounded-md">
                         Entre em Contato
-                    </a>
+                    </button>
                 </div>
             </div>
             <div className="w-1/2 flex flex-col items items-end mt-6 lg:mt-20">
