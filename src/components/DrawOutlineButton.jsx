@@ -2,7 +2,7 @@ const DrawOutlineButton = ({ text, ...rest }) => {
   return (
     <button
       {...rest}
-      className="cursor-pointer group relative px-2 py-2 font-medium text-slate-100 transition-colors duration-[400ms] hover:text-indigo-300"
+      value="project" className="cursor-pointer group relative px-2 py-2 font-medium text-slate-100 transition-colors duration-[400ms] hover:text-indigo-300"
     >
       <span>{text}</span>
 
