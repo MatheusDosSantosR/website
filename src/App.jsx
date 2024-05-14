@@ -2,6 +2,8 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import ProjectsSection from './components/ProjectsSection'
 import Footer from './components/Footer'
+import AbilitySection from './components/AbilitySection'
+
 function App() {
 
   return (
@@ -10,7 +12,8 @@ function App() {
       <div className="div max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
         <ProjectsSection />
-        <Footer/>
+        <AbilitySection />
+        <Footer />
       </div>
     </>
   )
