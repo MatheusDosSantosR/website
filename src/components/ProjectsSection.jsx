@@ -12,9 +12,9 @@ const ProjectsSection = () => {
                     <span className="bg-gradient-to-r from-indigo-300 to-indigo-400 text-transparent bg-clip-text"> {" "}Criados</span>
                 </h2>
             </div>
-            <div className="flex flex-wrap mt-10 lg:mt-20">
+            <div className="flex flex-wrap justify-center mt-10 lg:mt-20">
                 {projects.map((project, index) => (
-                    <div key={index} className="w-full sm:1/2 lg:w-1/4 mr-5 mt-3 flex justify-center">
+                    <div key={index} className="w-full sm:1/2 lg:w-1/4 mr-5 mt-3 flex justify-center mb-5">
                         <div className="max-w-sm bg-indigo-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 justify-center">
                             <a href="#">
                                 <img className="rounded-t-lg" src={project.image} alt="card" />
