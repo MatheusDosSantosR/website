@@ -16,12 +16,12 @@ const Navbar = () => {
             <div className="container px-4 mx-auto relative lg:text-sm">
                 <div className="flex justify-between items-center">
                     <div href="#" className="cursor-pointer flex items-center flex-shrink-0">
-                        <img className="h-5 w-60 mr-2" src={logo} alt="Logo" />
+                        <img className="h-10 w-30" src={logo} alt="Logo" />
                     </div>
                     <ul className="hidden lg:flex ml-14 space-x-12">
                         {navItems.map((item, index) => (
                             <li key={index}>
-                                <DrawOutlineButton text={item.label} />
+                                <DrawOutlineButton text={item.label}/>
                             </li>
                         ))}
                     </ul>

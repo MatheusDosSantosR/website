@@ -4,13 +4,19 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
-import projectImg1 from "../assets/project_01.png"
-import cypressImg from "../assets/image-cypress.jpg"
+import project01 from "../assets/projects/project_01.png"
+import cyLogo from "../assets/logos/cypress.svg"
+import postmanLogo from "../assets/logos/postman.svg"
+import k6Logo from "../assets/logos/k6.svg"
+import reactLogo from "../assets/logos/react.svg"
+import tsLogo from "../assets/logos/ts.svg"
+import dockerLogo from "../assets/logos/docker.svg"
+import jenkinsLogo from "../assets/logos/jenkins.svg"
 
 export const navItems = [
-  { label: "Sobre mim", href: "#" },
-  { label: "Projetos", href: "#" },
-  { label: "Contatos", href: "#" }
+  { label: "Sobre mim", href: "about" },
+  { label: "Projetos", href: "#project" },
+  { label: "Contatos", href: "contact" }
 ];
 
 export const contacts = [
@@ -37,24 +43,21 @@ export const contacts = [
 export const projects = [
   {
     icon: <AppWindow />,
-    id:"project",
-    text: "Landing page",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    image: projectImg1
+    text: "Gerador de pessoa",
+    description: "Criação de um projeto para geracao de pessoa, para utilizar em testes manuais. Tecnolias utilizadas React, TypeScript.",
+    image: project01
   }, {
     icon: <AppWindow />,
-    text: "Landing page 2",
+    text: "WebSite BlueCount",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    image: projectImg1
+      "Criação do website da BlueCount utilizando React, TypeScript é Tailwind.",
+    image: project01
   },
   {
     icon: <AppWindow />,
-    text: "Landing page 3",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    image: projectImg1
+    text: "Landing page para BlueCount para Profissionais da saude",
+    description: "Landing page com foco em pessoas da area de saude utilizando wordpress",
+    image: project01
   }
 ];
 
@@ -62,30 +65,30 @@ export const projects = [
 export const abilitys = [
   {
     title: "Cypress",
-    img: cypressImg,
+    img: cyLogo,
   },
   {
-    title: "Cypress",
-    img: cypressImg,
+    title: "Postman",
+    img: postmanLogo,
   },
   {
-    title: "Cypress",
-    img: cypressImg,
+    title: "K6",
+    img: k6Logo,
   },
   {
-    title: "Cypress",
-    img: cypressImg,
+    title: "React",
+    img: reactLogo,
   },
   {
-    title: "Cypress",
-    img: cypressImg,
+    title: "TypeScript",
+    img: tsLogo,
   },
   {
-    title: "Cypress",
-    img: cypressImg,
+    title: "Docker",
+    img: dockerLogo,
   },
   {
-    title: "Cypress",
-    img: cypressImg,
+    title: "Jenkins",
+    img: jenkinsLogo,
   }
 ];

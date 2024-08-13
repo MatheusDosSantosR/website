@@ -1,7 +1,16 @@
+import { useRef } from "react";
+
 const DrawOutlineButton = ({ text, ...rest }) => {
+  const gamesRef = useRef()
   return (
     <button
       {...rest}
+      onClick={() => {
+        const element = document.getElementById("project")
+        element.scrollIntoView({
+          behavio: "smooth"
+        })
+      }}
       value="project" className="cursor-pointer group relative px-2 py-2 font-medium text-slate-100 transition-colors duration-[400ms] hover:text-indigo-300"
     >
       <span>{text}</span>
